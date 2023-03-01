@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1671190390 source:c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe\main.cpp
+	"stdafx.h"
+	"TicTacToe.h"
+
+1671131506 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe\stdafx.h
+	<windows.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<tchar.h>
+
+1670967715 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe\targetver.h
+
+1671122724 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe\tictactoe.h
+	"resource.h"
+
+1671141489 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe\resource.h
+
+1671144970 source:c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe\tictactoe.rc
+	"resource.h"
+	"windows.h"
+
+1671190136 source:c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-workingversion\main.cpp
+	"stdafx.h"
+	"TicTacToe.h"
+
+1671131506 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-workingversion\stdafx.h
+	<windows.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<tchar.h>
+
+1670967715 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-workingversion\targetver.h
+
+1671122724 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-workingversion\tictactoe.h
+	"resource.h"
+
+1671141489 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-workingversion\resource.h
+
+1671144970 source:c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-workingversion\tictactoe.rc
+	"resource.h"
+	"windows.h"
+

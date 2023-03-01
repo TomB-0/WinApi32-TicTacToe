@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1671178570 source:c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-dll\tictactoe-dll\main.cpp
+	"main.h"
+
+1671180233 c:\users\blaza\onedrive\desktop\uni\5 semestras\winapi\labaratorinis\tictactoe-dll\tictactoe-dll\main.h
+	<windows.h>
+

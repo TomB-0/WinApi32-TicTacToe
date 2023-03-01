@@ -1,0 +1,46 @@
+#include "resource.h"
+#include "windows.h"
+
+IDI_TICTACTOE       ICON         "TicTacToe.ico"
+
+IDC_TICTACTOE MENU
+BEGIN
+    POPUP "&Menu"
+    BEGIN
+		MENUITEM "New Game",             IDM_NEW_GAME
+        MENUITEM "E&xit",                IDM_EXIT
+    END
+    POPUP "&Score"
+    BEGIN
+        MENUITEM "&Score",             IDM_SCORE
+    END
+END
+
+IDC_TICTACTOE ACCELERATORS
+BEGIN
+    "s",            IDM_SCORE,              ASCII,  ALT
+    "r",            IDM_NEW_GAME,           ASCII, ALT
+END
+
+IDD_SCOREBOX DIALOGEX 0, 0, 180, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TicTacToe scores"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Times X won:",IDC_STATIC,30,6,114,8
+    LTEXT           "Times O won:",IDC_STATIC,30,18,114,8
+    LTEXT           "Draw times:",IDC_STATIC,30,30,114,8
+    LTEXT           "Reset times:",IDC_STATIC,31,42,114,8
+    LTEXT           "Placeholder",IDC_MESSAGE1,75,6,114,8
+    LTEXT           "Placeholder",IDC_MESSAGE2,76,18,114,8
+    LTEXT           "Placeholder",IDC_MESSAGE3,70,30,114,8
+    LTEXT           "Placeholder",IDC_MESSAGE4,73,42,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,60,50,14,WS_GROUP
+END
+
+STRINGTABLE
+BEGIN
+   IDC_TICTACTOE   "TICTACTOE"
+   IDS_APP_TITLE       "TicTacToe"
+END
